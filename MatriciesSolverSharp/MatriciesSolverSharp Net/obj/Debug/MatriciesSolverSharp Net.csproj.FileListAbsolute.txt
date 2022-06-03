@@ -1,0 +1,8 @@
+C:\Users\Jenni\Dropbox\Projects\MatriciesSolverSharp\MatriciesSolverSharp\MatriciesSolverSharp Net\bin\Debug\MatriciesSolverSharp Net.exe.config
+C:\Users\Jenni\Dropbox\Projects\MatriciesSolverSharp\MatriciesSolverSharp\MatriciesSolverSharp Net\bin\Debug\MatriciesSolverSharp Net.exe
+C:\Users\Jenni\Dropbox\Projects\MatriciesSolverSharp\MatriciesSolverSharp\MatriciesSolverSharp Net\bin\Debug\MatriciesSolverSharp Net.pdb
+C:\Users\Jenni\Dropbox\Projects\MatriciesSolverSharp\MatriciesSolverSharp\MatriciesSolverSharp Net\obj\Debug\MatriciesSolverSharp Net.csproj.AssemblyReference.cache
+C:\Users\Jenni\Dropbox\Projects\MatriciesSolverSharp\MatriciesSolverSharp\MatriciesSolverSharp Net\obj\Debug\MatriciesSolverSharp Net.csproj.SuggestedBindingRedirects.cache
+C:\Users\Jenni\Dropbox\Projects\MatriciesSolverSharp\MatriciesSolverSharp\MatriciesSolverSharp Net\obj\Debug\MatriciesSolverSharp Net.csproj.CoreCompileInputs.cache
+C:\Users\Jenni\Dropbox\Projects\MatriciesSolverSharp\MatriciesSolverSharp\MatriciesSolverSharp Net\obj\Debug\MatriciesSolverSharp Net.exe
+C:\Users\Jenni\Dropbox\Projects\MatriciesSolverSharp\MatriciesSolverSharp\MatriciesSolverSharp Net\obj\Debug\MatriciesSolverSharp Net.pdb

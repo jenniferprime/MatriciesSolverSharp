@@ -1,0 +1,15 @@
+C:\Users\Jenni\Dropbox\Projects\MatriciesSolverSharp\MatriciesSolverSharp\MatriciesSolverSharp NETCore\bin\Debug\net6.0\MatriciesSolverSharp NETCore.exe
+C:\Users\Jenni\Dropbox\Projects\MatriciesSolverSharp\MatriciesSolverSharp\MatriciesSolverSharp NETCore\bin\Debug\net6.0\MatriciesSolverSharp NETCore.deps.json
+C:\Users\Jenni\Dropbox\Projects\MatriciesSolverSharp\MatriciesSolverSharp\MatriciesSolverSharp NETCore\bin\Debug\net6.0\MatriciesSolverSharp NETCore.runtimeconfig.json
+C:\Users\Jenni\Dropbox\Projects\MatriciesSolverSharp\MatriciesSolverSharp\MatriciesSolverSharp NETCore\bin\Debug\net6.0\MatriciesSolverSharp NETCore.dll
+C:\Users\Jenni\Dropbox\Projects\MatriciesSolverSharp\MatriciesSolverSharp\MatriciesSolverSharp NETCore\bin\Debug\net6.0\ref\MatriciesSolverSharp NETCore.dll
+C:\Users\Jenni\Dropbox\Projects\MatriciesSolverSharp\MatriciesSolverSharp\MatriciesSolverSharp NETCore\bin\Debug\net6.0\MatriciesSolverSharp NETCore.pdb
+C:\Users\Jenni\Dropbox\Projects\MatriciesSolverSharp\MatriciesSolverSharp\MatriciesSolverSharp NETCore\obj\Debug\net6.0\MatriciesSolverSharp NETCore.csproj.AssemblyReference.cache
+C:\Users\Jenni\Dropbox\Projects\MatriciesSolverSharp\MatriciesSolverSharp\MatriciesSolverSharp NETCore\obj\Debug\net6.0\MatriciesSolverSharp NETCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jenni\Dropbox\Projects\MatriciesSolverSharp\MatriciesSolverSharp\MatriciesSolverSharp NETCore\obj\Debug\net6.0\MatriciesSolverSharp NETCore.AssemblyInfoInputs.cache
+C:\Users\Jenni\Dropbox\Projects\MatriciesSolverSharp\MatriciesSolverSharp\MatriciesSolverSharp NETCore\obj\Debug\net6.0\MatriciesSolverSharp NETCore.AssemblyInfo.cs
+C:\Users\Jenni\Dropbox\Projects\MatriciesSolverSharp\MatriciesSolverSharp\MatriciesSolverSharp NETCore\obj\Debug\net6.0\MatriciesSolverSharp NETCore.csproj.CoreCompileInputs.cache
+C:\Users\Jenni\Dropbox\Projects\MatriciesSolverSharp\MatriciesSolverSharp\MatriciesSolverSharp NETCore\obj\Debug\net6.0\MatriciesSolverSharp NETCore.dll
+C:\Users\Jenni\Dropbox\Projects\MatriciesSolverSharp\MatriciesSolverSharp\MatriciesSolverSharp NETCore\obj\Debug\net6.0\ref\MatriciesSolverSharp NETCore.dll
+C:\Users\Jenni\Dropbox\Projects\MatriciesSolverSharp\MatriciesSolverSharp\MatriciesSolverSharp NETCore\obj\Debug\net6.0\MatriciesSolverSharp NETCore.pdb
+C:\Users\Jenni\Dropbox\Projects\MatriciesSolverSharp\MatriciesSolverSharp\MatriciesSolverSharp NETCore\obj\Debug\net6.0\MatriciesSolverSharp NETCore.genruntimeconfig.cache

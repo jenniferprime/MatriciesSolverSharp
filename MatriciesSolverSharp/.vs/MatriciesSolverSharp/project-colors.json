@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "84f39d1a-50b4-4a35-a8c4-6b284bde3e8f": {
+      "ProjectGuid": "84f39d1a-50b4-4a35-a8c4-6b284bde3e8f",
+      "DisplayName": "MatriciesSolverSharp NETCore",
+      "ColorIndex": 0
+    },
+    "e03f057f-548f-4edd-9378-53e62538c2a4": {
+      "ProjectGuid": "e03f057f-548f-4edd-9378-53e62538c2a4",
+      "DisplayName": "MatriciesSolverSharp Net",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}
