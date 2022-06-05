@@ -9,7 +9,8 @@ namespace MatriciesSolverSharp_Net
     internal class MatriciesSolverSharpMathMatrix
     {
         //public static MatriciesSolverSharp Instance { get; set; } #
-        enum determinantAlgo { Laplace, Gausian};
+        enum determinantAlgo { Laplace, Gausian };
+        public enum operation { Add, Subtract, Divide, Multiply };
         
         //gets a 2 by 2 matrix and returns, if sucsessful it's determinante. if it's not successful it will return 1337.
         public static float MatrixDet(float[,] matrix, int mRows = 2, int mLines = 2)
@@ -150,5 +151,96 @@ namespace MatriciesSolverSharp_Net
             }
             return true;
         }
+
+        public static bool MatrixOperation(ref Matrix outMatrix, ref Matrix matrixA, ref Matrix matrixB, operation operation = operation.Add)
+        {
+            //make sure the matrices have the same row and collumn count
+            //pls fix check that outMatrix is also the same size as A and B
+            if (matrixA.mRowCount == matrixB.mRowCount && matrixA.mColumnCount == matrixB.mColumnCount)
+            {
+                //pls fix, missing try catch block
+
+                switch (operation)
+                {
+                    case operation.Add:
+                    {
+                            for (int iRow = 0; iRow<matrixA.mRowCount;iRow++)
+                            {
+                                for (int iCol = 0; iCol<matrixA.mColumnCount; iCol++)
+                                {
+                                    outMatrix.mValues[iRow, iCol] = matrixA.mValues[iRow, iCol] + matrixB.mValues[iRow, iCol];
+                                }
+                            }
+                            return true;
+                            //pls fix break redundant?
+                            break;
+                    }
+                    case operation.Subtract:
+                        {
+                            for (int iRow = 0; iRow<matrixA.mRowCount; iRow++)
+                            {
+                                for (int iCol = 0; iCol<matrixA.mColumnCount; iCol++)
+                                {
+                                    outMatrix.mValues[iRow, iCol] = matrixA.mValues[iRow, iCol] - matrixB.mValues[iRow, iCol];
+                                }
+                            }
+                            return true;
+                            //pls fix break redundant?
+                            break;
+                        }
+                    default:
+                        {
+                            return false;
+                            //pls fix break redundant?
+                            break;
+                        }
+                }
+            }
+            else { return false; }
+            //pls fix, reduntant return?
+            return true;
+        }
+
+        private bool helpMultiplyMatrix(ref Matrix outMatrix, ref Matrix matrixA, ref Matrix matrixB)
+        {
+            //not adding size checks, as this function should only be called by "MatrixOperation()"
+            
+
+            //this is the one where we use the falkthing
+
+            /*
+             *      Nomatrix|Bmatrix
+             *      Amatrix |Outmatrix
+             *      
+             *      -   -   -   |   a   b   c  
+             *      -   -   -   |   d   e   f
+             *      -   -   -   |   g   h   i
+             *      __________________________
+             *      a   b   c   |   A   B   C
+             *      d   e   f   |   D   E   F
+             *      g   h   i   |   G   H   I
+             */
+
+            //first attempt at making a thing where i'm going through the out matrix and trying to figure out what values I have to add/multiply
+            for(int iRow = 0; iRow < outMatrix.mRowCount; iRow++)
+            {
+                for(int iCol = 0; iCol < outMatrix.mColumnCount; iCol++)
+                {
+                    outMatrix.mValues[iRow, iCol] = 0.0f;
+                    //the col needs to got the Bmatrix and Row needs to go to the Amatrix
+
+                }
+            }
+
+            return true;
+        }
+    }
+    
+    internal class Matrix
+    {
+        public  float[,]    mValues;
+        public  int         mIndex;
+        public  int         mRowCount;  
+        public  int         mColumnCount;
     }
 }
