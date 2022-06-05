@@ -226,9 +226,15 @@ namespace MatriciesSolverSharp_Net
             {
                 for(int iCol = 0; iCol < outMatrix.mColumnCount; iCol++)
                 {
-                    outMatrix.mValues[iRow, iCol] = 0.0f;
+                    
                     //the col needs to got the Bmatrix and Row needs to go to the Amatrix
 
+                    //this is the loop that does the thing with the indicies of the new matrix
+                    //pls fix, check if this works
+                    //pls fix, make this into a loop so the things make sense
+                    float value = (matrixA.mValues[iRow, 0] * matrixB.mValues[0, iCol]) + (matrixA.mValues[iRow, 1] * matrixB.mValues[1, iCol]) + (matrixA.mValues[iRow, 2] * matrixB.mValues[2, iCol]);
+
+                    outMatrix.mValues[iRow, iCol] = value;
                 }
             }
 
